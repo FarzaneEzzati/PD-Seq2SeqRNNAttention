@@ -1,0 +1,179 @@
+Date,Hour,Temperature,Humidity,Wind,Pressure,Precipitation,Condition
+01/01/2025,1:53 AM,56 °F,55 °%,13 °mph,30.10 °in,0.0 °in,Fair
+01/01/2025,2:53 AM,54 °F,59 °%,14 °mph,30.12 °in,0.0 °in,Fair
+01/01/2025,3:53 AM,53 °F,61 °%,14 °mph,30.13 °in,0.0 °in,Fair
+01/01/2025,4:53 AM,52 °F,63 °%,14 °mph,30.14 °in,0.0 °in,Fair
+01/01/2025,5:53 AM,51 °F,66 °%,13 °mph,30.15 °in,0.0 °in,Fair
+01/01/2025,6:53 AM,50 °F,68 °%,15 °mph,30.17 °in,0.0 °in,Fair
+01/01/2025,7:53 AM,49 °F,71 °%,12 °mph,30.20 °in,0.0 °in,Fair
+01/01/2025,8:53 AM,49 °F,71 °%,12 °mph,30.22 °in,0.0 °in,Fair
+01/01/2025,9:53 AM,51 °F,66 °%,13 °mph,30.26 °in,0.0 °in,Partly Cloudy
+01/01/2025,10:53 AM,54 °F,59 °%,14 °mph,30.28 °in,0.0 °in,Fair
+01/01/2025,11:53 AM,56 °F,53 °%,16 °mph,30.28 °in,0.0 °in,Partly Cloudy
+01/01/2025,12:53 PM,59 °F,48 °%,14 °mph,30.26 °in,0.0 °in,Fair
+01/01/2025,1:53 PM,60 °F,47 °%,9 °mph,30.22 °in,0.0 °in,Partly Cloudy
+01/01/2025,2:53 PM,62 °F,43 °%,7 °mph,30.20 °in,0.0 °in,Fair
+01/01/2025,3:53 PM,63 °F,40 °%,6 °mph,30.19 °in,0.0 °in,Fair
+01/01/2025,4:53 PM,63 °F,40 °%,8 °mph,30.18 °in,0.0 °in,Partly Cloudy
+01/01/2025,5:53 PM,62 °F,43 °%,10 °mph,30.18 °in,0.0 °in,Partly Cloudy
+01/01/2025,6:53 PM,59 °F,49 °%,6 °mph,30.19 °in,0.0 °in,Partly Cloudy
+01/01/2025,7:53 PM,55 °F,62 °%,0 °mph,30.21 °in,0.0 °in,Fair
+01/01/2025,8:53 PM,55 °F,62 °%,0 °mph,30.23 °in,0.0 °in,Partly Cloudy
+01/01/2025,9:53 PM,56 °F,57 °%,7 °mph,30.24 °in,0.0 °in,Partly Cloudy
+01/01/2025,10:53 PM,56 °F,62 °%,5 °mph,30.25 °in,0.0 °in,Cloudy
+01/01/2025,11:53 PM,56 °F,60 °%,5 °mph,30.25 °in,0.0 °in,Cloudy
+01/01/2025,12:53 AM,56 °F,62 °%,6 °mph,30.25 °in,0.0 °in,Cloudy
+01/02/2025,1:53 AM,56 °F,62 °%,6 °mph,30.24 °in,0.0 °in,Cloudy
+01/02/2025,2:53 AM,56 °F,62 °%,6 °mph,30.22 °in,0.0 °in,Mostly Cloudy
+01/02/2025,3:53 AM,54 °F,69 °%,5 °mph,30.20 °in,0.0 °in,Partly Cloudy
+01/02/2025,4:53 AM,53 °F,74 °%,7 °mph,30.20 °in,0.0 °in,Fair
+01/02/2025,5:53 AM,52 °F,77 °%,8 °mph,30.20 °in,0.0 °in,Fair
+01/02/2025,6:53 AM,50 °F,80 °%,8 °mph,30.21 °in,0.0 °in,Fair
+01/02/2025,7:53 AM,50 °F,80 °%,6 °mph,30.22 °in,0.0 °in,Fair
+01/02/2025,8:53 AM,52 °F,74 °%,6 °mph,30.24 °in,0.0 °in,Cloudy
+01/02/2025,9:53 AM,54 °F,69 °%,6 °mph,30.26 °in,0.0 °in,Cloudy
+01/02/2025,10:53 AM,56 °F,69 °%,8 °mph,30.27 °in,0.0 °in,Cloudy
+01/02/2025,11:53 AM,57 °F,72 °%,12 °mph,30.27 °in,0.0 °in,Cloudy
+01/02/2025,12:53 PM,58 °F,72 °%,8 °mph,30.25 °in,0.0 °in,Cloudy
+01/02/2025,1:53 PM,60 °F,69 °%,12 °mph,30.20 °in,0.0 °in,Cloudy
+01/02/2025,2:53 PM,61 °F,72 °%,9 °mph,30.17 °in,0.0 °in,Cloudy
+01/02/2025,3:53 PM,61 °F,72 °%,13 °mph,30.16 °in,0.0 °in,Cloudy
+01/02/2025,4:53 PM,61 °F,78 °%,10 °mph,30.16 °in,0.0 °in,Cloudy
+01/02/2025,5:53 PM,60 °F,80 °%,9 °mph,30.16 °in,0.0 °in,Cloudy
+01/02/2025,6:53 PM,60 °F,83 °%,9 °mph,30.17 °in,0.0 °in,Cloudy
+01/02/2025,7:53 PM,60 °F,83 °%,12 °mph,30.17 °in,0.0 °in,Cloudy
+01/02/2025,8:53 PM,60 °F,83 °%,10 °mph,30.17 °in,0.0 °in,Cloudy
+01/02/2025,9:53 PM,60 °F,83 °%,9 °mph,30.19 °in,0.0 °in,Cloudy
+01/02/2025,10:53 PM,60 °F,86 °%,9 °mph,30.19 °in,0.0 °in,Light Rain
+01/02/2025,11:53 PM,61 °F,87 °%,8 °mph,30.21 °in,0.0 °in,Cloudy
+01/02/2025,12:53 AM,61 °F,87 °%,8 °mph,30.21 °in,0.0 °in,Cloudy
+01/03/2025,1:20 AM,61 °F,87 °%,6 °mph,30.21 °in,0.0 °in,Light Rain
+01/03/2025,1:29 AM,61 °F,87 °%,9 °mph,30.21 °in,0.0 °in,Light Rain
+01/03/2025,1:53 AM,61 °F,90 °%,7 °mph,30.21 °in,0.0 °in,Cloudy
+01/03/2025,2:53 AM,60 °F,90 °%,6 °mph,30.20 °in,0.0 °in,Cloudy
+01/03/2025,3:53 AM,59 °F,90 °%,8 °mph,30.20 °in,0.0 °in,Cloudy
+01/03/2025,4:53 AM,0 °F,0 °%,0 °mph,30.19 °in,0.0 °in,Cloudy
+01/03/2025,5:53 AM,61 °F,81 °%,7 °mph,30.20 °in,0.0 °in,Cloudy
+01/03/2025,6:53 AM,60 °F,86 °%,8 °mph,30.21 °in,0.0 °in,Mostly Cloudy
+01/03/2025,7:53 AM,60 °F,86 °%,8 °mph,30.24 °in,0.0 °in,Cloudy
+01/03/2025,8:53 AM,61 °F,83 °%,9 °mph,30.25 °in,0.0 °in,Mostly Cloudy
+01/03/2025,9:53 AM,62 °F,80 °%,7 °mph,30.27 °in,0.0 °in,Mostly Cloudy
+01/03/2025,10:53 AM,65 °F,78 °%,10 °mph,30.29 °in,0.0 °in,Cloudy
+01/03/2025,11:53 AM,67 °F,70 °%,9 °mph,30.29 °in,0.0 °in,Mostly Cloudy
+01/03/2025,12:53 PM,69 °F,63 °%,10 °mph,30.27 °in,0.0 °in,Cloudy
+01/03/2025,1:53 PM,69 °F,61 °%,9 °mph,30.25 °in,0.0 °in,Mostly Cloudy
+01/03/2025,2:53 PM,70 °F,59 °%,6 °mph,30.22 °in,0.0 °in,Mostly Cloudy
+01/03/2025,3:53 PM,71 °F,55 °%,13 °mph,30.21 °in,0.0 °in,Partly Cloudy
+01/03/2025,4:53 PM,72 °F,53 °%,9 °mph,30.20 °in,0.0 °in,Mostly Cloudy
+01/03/2025,5:53 PM,69 °F,61 °%,9 °mph,30.21 °in,0.0 °in,Mostly Cloudy
+01/03/2025,6:53 PM,66 °F,65 °%,6 °mph,30.21 °in,0.0 °in,Cloudy
+01/03/2025,7:53 PM,66 °F,68 °%,9 °mph,30.22 °in,0.0 °in,Cloudy
+01/03/2025,8:53 PM,65 °F,73 °%,6 °mph,30.21 °in,0.0 °in,Mostly Cloudy
+01/03/2025,9:53 PM,64 °F,72 °%,5 °mph,30.21 °in,0.0 °in,Mostly Cloudy
+01/03/2025,10:53 PM,63 °F,72 °%,6 °mph,30.22 °in,0.0 °in,Mostly Cloudy
+01/03/2025,11:53 PM,64 °F,72 °%,7 °mph,30.22 °in,0.0 °in,Mostly Cloudy
+01/03/2025,12:53 AM,64 °F,78 °%,10 °mph,30.21 °in,0.0 °in,Mostly Cloudy
+01/04/2025,1:53 AM,64 °F,75 °%,13 °mph,30.20 °in,0.0 °in,Cloudy
+01/04/2025,2:07 AM,63 °F,75 °%,15 °mph,30.19 °in,0.0 °in,Cloudy
+01/04/2025,2:53 AM,63 °F,67 °%,12 °mph,30.17 °in,0.0 °in,Cloudy
+01/04/2025,3:53 AM,62 °F,65 °%,12 °mph,30.17 °in,0.0 °in,Cloudy
+01/04/2025,4:53 AM,61 °F,64 °%,13 °mph,30.17 °in,0.0 °in,Cloudy
+01/04/2025,5:53 AM,61 °F,64 °%,12 °mph,30.16 °in,0.0 °in,Cloudy
+01/04/2025,6:30 AM,60 °F,72 °%,9 °mph,30.15 °in,0.0 °in,Cloudy
+01/04/2025,6:53 AM,60 °F,72 °%,12 °mph,30.14 °in,0.0 °in,Cloudy
+01/04/2025,7:53 AM,60 °F,78 °%,12 °mph,30.15 °in,0.0 °in,Light Rain
+01/04/2025,8:53 AM,60 °F,83 °%,12 °mph,30.14 °in,0.0 °in,Cloudy
+01/04/2025,9:53 AM,62 °F,84 °%,10 °mph,30.14 °in,0.0 °in,Cloudy
+01/04/2025,10:53 AM,65 °F,81 °%,14 °mph,30.15 °in,0.0 °in,Cloudy
+01/04/2025,11:53 AM,66 °F,84 °%,13 °mph,30.14 °in,0.0 °in,Cloudy
+01/04/2025,12:53 PM,69 °F,75 °%,17 °mph,30.11 °in,0.0 °in,Cloudy
+01/04/2025,1:53 PM,69 °F,78 °%,14 °mph,30.06 °in,0.0 °in,Cloudy
+01/04/2025,2:53 PM,68 °F,87 °%,10 °mph,30.04 °in,0.0 °in,Cloudy
+01/04/2025,3:53 PM,70 °F,84 °%,13 °mph,30.01 °in,0.0 °in,Haze
+01/04/2025,4:45 PM,69 °F,87 °%,10 °mph,29.99 °in,0.0 °in,Cloudy
+01/04/2025,4:53 PM,70 °F,84 °%,10 °mph,29.98 °in,0.0 °in,Cloudy
+01/04/2025,5:53 PM,69 °F,90 °%,12 °mph,29.99 °in,0.0 °in,Cloudy
+01/04/2025,6:53 PM,69 °F,90 °%,12 °mph,29.97 °in,0.0 °in,Cloudy
+01/04/2025,7:53 PM,69 °F,93 °%,10 °mph,29.97 °in,0.0 °in,Cloudy
+01/04/2025,8:53 PM,68 °F,96 °%,9 °mph,29.97 °in,0.0 °in,Mostly Cloudy
+01/04/2025,9:53 PM,67 °F,93 °%,9 °mph,29.96 °in,0.0 °in,Fair
+01/04/2025,10:53 PM,67 °F,90 °%,8 °mph,29.95 °in,0.0 °in,Partly Cloudy
+01/04/2025,11:53 PM,67 °F,90 °%,8 °mph,29.93 °in,0.0 °in,Partly Cloudy
+01/04/2025,12:53 AM,67 °F,90 °%,10 °mph,29.91 °in,0.0 °in,Fair
+01/05/2025,1:53 AM,68 °F,93 °%,13 °mph,29.89 °in,0.0 °in,Partly Cloudy
+01/05/2025,2:53 AM,68 °F,93 °%,13 °mph,29.87 °in,0.0 °in,Partly Cloudy
+01/05/2025,3:53 AM,69 °F,90 °%,9 °mph,29.86 °in,0.0 °in,Mostly Cloudy
+01/05/2025,5:53 AM,69 °F,87 °%,12 °mph,29.84 °in,0.0 °in,Partly Cloudy
+01/05/2025,6:31 AM,69 °F,87 °%,10 °mph,29.83 °in,0.0 °in,Mostly Cloudy
+01/05/2025,6:41 AM,69 °F,87 °%,10 °mph,29.83 °in,0.0 °in,Partly Cloudy
+01/05/2025,6:53 AM,70 °F,87 °%,10 °mph,29.82 °in,0.0 °in,Partly Cloudy
+01/05/2025,7:49 AM,70 °F,88 °%,9 °mph,29.84 °in,0.0 °in,Mostly Cloudy
+01/05/2025,7:53 AM,69 °F,90 °%,9 °mph,29.84 °in,0.0 °in,Partly Cloudy
+01/05/2025,8:53 AM,71 °F,87 °%,13 °mph,29.84 °in,0.0 °in,Mostly Cloudy
+01/05/2025,9:53 AM,73 °F,81 °%,18 °mph,29.84 °in,0.0 °in,Cloudy
+01/05/2025,10:53 AM,76 °F,74 °%,17 °mph,29.86 °in,0.0 °in,Mostly Cloudy
+01/05/2025,11:53 AM,77 °F,69 °%,25 °mph,29.87 °in,0.0 °in,Cloudy / Windy
+01/05/2025,12:53 PM,78 °F,66 °%,15 °mph,29.84 °in,0.0 °in,Cloudy
+01/05/2025,1:53 PM,78 °F,64 °%,21 °mph,29.79 °in,0.0 °in,Mostly Cloudy / Windy
+01/05/2025,2:53 PM,80 °F,60 °%,28 °mph,29.74 °in,0.0 °in,Light Rain / Windy
+01/05/2025,3:53 PM,77 °F,69 °%,22 °mph,29.73 °in,0.0 °in,Cloudy / Windy
+01/05/2025,4:18 PM,73 °F,79 °%,18 °mph,29.76 °in,0.0 °in,Cloudy
+01/05/2025,4:31 PM,68 °F,90 °%,13 °mph,29.77 °in,0.1 °in,Heavy T-Storm
+01/05/2025,4:53 PM,68 °F,93 °%,7 °mph,29.77 °in,0.2 °in,Light Rain with Thunder
+01/05/2025,5:34 PM,63 °F,72 °%,17 °mph,29.81 °in,0.0 °in,Mostly Cloudy
+01/05/2025,5:53 PM,63 °F,65 °%,17 °mph,29.82 °in,0.0 °in,Mostly Cloudy
+01/05/2025,6:53 PM,60 °F,51 °%,16 °mph,29.88 °in,0.0 °in,Partly Cloudy
+01/05/2025,7:53 PM,55 °F,47 °%,23 °mph,29.94 °in,0.0 °in,Fair / Windy
+01/05/2025,8:53 PM,51 °F,46 °%,26 °mph,30.00 °in,0.0 °in,Fair / Windy
+01/05/2025,9:53 PM,49 °F,48 °%,22 °mph,30.03 °in,0.0 °in,Fair / Windy
+01/05/2025,10:53 PM,46 °F,44 °%,22 °mph,30.06 °in,0.0 °in,Fair / Windy
+01/05/2025,11:53 PM,44 °F,43 °%,26 °mph,30.09 °in,0.0 °in,Fair / Windy
+01/05/2025,12:53 AM,41 °F,47 °%,23 °mph,30.11 °in,0.0 °in,Fair / Windy
+01/06/2025,1:53 AM,39 °F,49 °%,23 °mph,30.12 °in,0.0 °in,Fair / Windy
+01/06/2025,2:53 AM,37 °F,52 °%,16 °mph,30.15 °in,0.0 °in,Fair
+01/06/2025,3:53 AM,35 °F,57 °%,16 °mph,30.17 °in,0.0 °in,Fair
+01/06/2025,4:53 AM,34 °F,56 °%,16 °mph,30.18 °in,0.0 °in,Fair
+01/06/2025,5:53 AM,33 °F,59 °%,15 °mph,30.19 °in,0.0 °in,Fair
+01/06/2025,6:53 AM,32 °F,61 °%,17 °mph,30.23 °in,0.0 °in,Fair
+01/06/2025,7:53 AM,31 °F,61 °%,15 °mph,30.26 °in,0.0 °in,Fair
+01/06/2025,8:53 AM,32 °F,59 °%,21 °mph,30.28 °in,0.0 °in,Fair / Windy
+01/06/2025,9:53 AM,33 °F,59 °%,23 °mph,30.30 °in,0.0 °in,Fair / Windy
+01/06/2025,10:53 AM,36 °F,52 °%,22 °mph,30.32 °in,0.0 °in,Fair / Windy
+01/06/2025,11:53 AM,39 °F,50 °%,17 °mph,30.33 °in,0.0 °in,Fair
+01/06/2025,12:53 PM,40 °F,49 °%,21 °mph,30.30 °in,0.0 °in,Fair / Windy
+01/06/2025,1:53 PM,42 °F,45 °%,17 °mph,30.27 °in,0.0 °in,Fair
+01/06/2025,2:53 PM,45 °F,42 °%,17 °mph,30.25 °in,0.0 °in,Fair
+01/06/2025,3:53 PM,45 °F,42 °%,15 °mph,30.24 °in,0.0 °in,Fair
+01/06/2025,4:53 PM,46 °F,40 °%,15 °mph,30.25 °in,0.0 °in,Fair
+01/06/2025,5:53 PM,44 °F,42 °%,15 °mph,30.25 °in,0.0 °in,Fair
+01/06/2025,6:53 PM,42 °F,47 °%,12 °mph,30.28 °in,0.0 °in,Fair
+01/06/2025,7:53 PM,41 °F,49 °%,12 °mph,30.30 °in,0.0 °in,Fair
+01/06/2025,8:53 PM,41 °F,47 °%,12 °mph,30.32 °in,0.0 °in,Fair
+01/06/2025,9:53 PM,40 °F,49 °%,13 °mph,30.31 °in,0.0 °in,Fair
+01/06/2025,10:53 PM,39 °F,46 °%,9 °mph,30.34 °in,0.0 °in,Fair
+01/06/2025,11:53 PM,38 °F,47 °%,8 °mph,30.35 °in,0.0 °in,Fair
+01/06/2025,12:53 AM,37 °F,48 °%,9 °mph,30.35 °in,0.0 °in,Fair
+01/07/2025,1:53 AM,37 °F,44 °%,9 °mph,30.33 °in,0.0 °in,Fair
+01/07/2025,2:53 AM,36 °F,44 °%,14 °mph,30.35 °in,0.0 °in,Fair
+01/07/2025,3:53 AM,35 °F,46 °%,13 °mph,30.33 °in,0.0 °in,Fair
+01/07/2025,4:53 AM,34 °F,50 °%,7 °mph,30.34 °in,0.0 °in,Fair
+01/07/2025,5:53 AM,33 °F,54 °%,8 °mph,30.35 °in,0.0 °in,Fair
+01/07/2025,6:53 AM,33 °F,54 °%,8 °mph,30.35 °in,0.0 °in,Fair
+01/07/2025,7:53 AM,33 °F,56 °%,9 °mph,30.38 °in,0.0 °in,Fair
+01/07/2025,8:53 AM,34 °F,56 °%,7 °mph,30.40 °in,0.0 °in,Fair
+01/07/2025,9:53 AM,38 °F,51 °%,9 °mph,30.42 °in,0.0 °in,Fair
+01/07/2025,10:53 AM,40 °F,49 °%,14 °mph,30.41 °in,0.0 °in,Fair
+01/07/2025,11:53 AM,42 °F,45 °%,9 °mph,30.41 °in,0.0 °in,Fair
+01/07/2025,12:53 PM,44 °F,43 °%,0 °mph,30.39 °in,0.0 °in,Partly Cloudy
+01/07/2025,1:53 PM,47 °F,39 °%,7 °mph,30.37 °in,0.0 °in,Partly Cloudy
+01/07/2025,2:53 PM,49 °F,36 °%,14 °mph,30.33 °in,0.0 °in,Partly Cloudy
+01/07/2025,3:53 PM,50 °F,35 °%,13 °mph,30.32 °in,0.0 °in,Partly Cloudy
+01/07/2025,4:53 PM,51 °F,35 °%,8 °mph,30.32 °in,0.0 °in,Partly Cloudy
+01/07/2025,5:53 PM,50 °F,36 °%,7 °mph,30.33 °in,0.0 °in,Partly Cloudy
+01/07/2025,6:53 PM,48 °F,41 °%,8 °mph,30.35 °in,0.0 °in,Partly Cloudy
+01/07/2025,7:53 PM,47 °F,42 °%,14 °mph,30.36 °in,0.0 °in,Mostly Cloudy
+01/07/2025,8:53 PM,46 °F,42 °%,9 °mph,30.39 °in,0.0 °in,Mostly Cloudy
+01/07/2025,9:53 PM,47 °F,42 °%,12 °mph,30.41 °in,0.0 °in,Mostly Cloudy
+01/07/2025,10:53 PM,46 °F,46 °%,8 °mph,30.43 °in,0.0 °in,Cloudy
+01/07/2025,11:53 PM,45 °F,48 °%,14 °mph,30.43 °in,0.0 °in,Cloudy
+01/07/2025,12:53 AM,44 °F,49 °%,9 °mph,30.44 °in,0.0 °in,Cloudy
