@@ -217,6 +217,18 @@ Each model makes one 24-hour forecast at midnight for every day of 2024. Errors 
 Settings: run `T48-L3-HD128` (48 input hours, 3 GRU layers, 128 hidden units, teacher forcing 0.9),
 up to 500 epochs with early stopping (patience 30), seed 42.
 
+### Summary
+
+Average of the two models, each tested in its own setting (perfect-weather model with perfect weather,
+noisy-weather model with noisy weather):
+
+| City | MAE (kW) | RMSE (kW) | MAPE | Coverage of q0.1–q0.9 (target 80 %) | Error reduction vs. "same hour yesterday" |
+|---|---|---|---|---|---|
+| Houston | 0.165 | 0.247 | 3.3 % | 80.5 % | 42 % |
+| Austin | 0.171 | 0.235 | 4.5 % | 82.5 % | 27 % |
+
+### Details
+
 **Houston** (training stopped after 201 epochs for perfect, 149 for noisy)
 
 | Model trained with | Tested with | MAE | MAPE | Coverage of q0.1–q0.9 (target 80 %) | Band width |
