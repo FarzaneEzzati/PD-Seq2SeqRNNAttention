@@ -26,7 +26,7 @@ class Attention(nn.Module):
 
     def forward(self, dec_hidden, enc_outputs):
         # dec_hidden: [batch, layers, hidden], enc_outputs: [batch, input_hours, 2*hidden]
-        s = dec_hidden[:, -1:, :].expand(-1, enc_outputs.size(1), -1)   # top layer, repeated per input hour
+        s = dec_hidden[:, -1:, :].expand(-1, enc_outputs.size(1), -1)   # keep the top layer top layer, repeated per input hour
         energy = torch.tanh(self.W(torch.cat((s, enc_outputs), dim=2)))
         return torch.softmax(energy @ self.V, dim=1)                     # [batch, input_hours]
 
@@ -60,12 +60,13 @@ class Decoder(nn.Module):
         self.fc = nn.Linear(step_input + hidden_dim, n_quantiles)
 
     def forward(self, prev_y, future_t, hidden, enc_outputs):
-        # prev_y: demand of the previous hour [batch]
+        # prev_y:   demand of the previous hour [batch]
         # future_t: time and weather of the hour being forecast [batch, future_dim]
+        # hiden:    decoder hidden states[batch, n_layers, hidden_dim]
         weights = self.attention(hidden, enc_outputs).unsqueeze(1)          # [batch, 1, input_hours]
         context = torch.bmm(weights, enc_outputs)[:, 0]                     # [batch, 2*hidden]
-        step_in = torch.cat((prev_y[:, None], future_t, context), dim=1)
-        out, hidden = self.gru(step_in[:, None], hidden.permute(1, 0, 2).contiguous())
+        step_in = torch.cat((prev_y[:, None], future_t, context), dim=1)    # [batch, 1+future_dim+2*hidden]
+        out, hidden = self.gru(step_in[:, None], hidden.permute(1, 0, 2).contiguous())  # GRU requires [layer, batch, hidden]
         pred = self.fc(torch.cat((step_in, out[:, 0]), dim=1))
         return pred, hidden.permute(1, 0, 2)                                # [batch, n_quantiles]
 
@@ -80,7 +81,10 @@ class Seq2Seq(nn.Module):
 
     def forward(self, past, last_y, future, targets=None, teacher_forcing=0.0):
         """past: features of the input hours, last_y: last known demand,
-        future: time + weather of the forecast hours, targets: true future demand (training only)."""
+        future: time + weather of the forecast hours, targets: true future demand (training only).
+            enc_outputs: [batch, hours, 2*hidden_dim]
+            hidden: [batch, n_layers, hidden_dim]
+        """
         enc_outputs, hidden = self.encoder(past)
         prev_y = last_y
         preds = []

@@ -28,6 +28,8 @@ Location settings are at the bottom of [config.yaml](config.yaml).
 A sequence-to-sequence network: a bidirectional multi-layer GRU encoder, and a GRU decoder with
 Bahdanau (additive) attention that emits one forecast hour per step.
 
+![Model architecture](architecture.jpg)
+
 $$
 e_{t,j} = V^\top \tanh\big(W [h^{dec}_{t-1}; h^{enc}_j]\big), \qquad
 \alpha_{t,j} = \frac{\exp(e_{t,j})}{\sum_{k=1}^{T}\exp(e_{t,k})}, \qquad
