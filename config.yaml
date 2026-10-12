@@ -1,0 +1,73 @@
+# All settings for the pipeline. Edit this file, then run the scripts in order:
+#   python 1_fetch_data.py
+#   python 2_prepare_data.py
+#   python 3_train.py
+#   python 4_evaluate.py
+#   python 5_predict.py
+
+# ---------------- What to run ----------------
+location: houston              # houston or austin (see `locations` at the bottom)
+run_name: T48-L3-HD128         # name for the trained model and its results (-perfect or -noisy is added)
+
+# ---------------- Data ----------------
+fetch_from_internet: false     # false: only use files in data/raw
+                               # true: download missing ERCOT years and scrape missing weather days
+start_date: "2015-01-01"
+end_date: "2024-12-31"         # last day of the test year. Data after this is only used by 5_predict.py
+val_start: "2023-01-01"        # train = start_date .. val_start
+test_start: "2024-01-01"       # validation = val_start .. test_start, test = test_start .. end_date
+max_gap_hours: 24              # missing data gaps up to this length are filled by interpolation
+
+# ---------------- Future weather ----------------
+# The decoder gets the time and weather of each hour it forecasts. Our data has the observed
+# weather, which is better than a real weather forecast.
+future_weather: perfect        # perfect: use the observed weather (best case)
+                               # noisy:   add forecast-like errors (see src/noise.py and the README)
+                               # Each choice is saved as its own model: <run_name>-perfect / <run_name>-noisy
+weather_noise:                 # size of the errors for `noisy` (standard deviations)
+  Temperature: 3.0             # F
+  Humidity: 0.08               # fraction (8 percentage points)
+  Wind: 3.0                    # mph
+  Pressure: 0.03               # inHg
+  Precipitation: 0.5           # relative: amounts are multiplied by exp(Normal(0, 0.5))
+  condition_change_prob: 0.2   # chance per hour that the weather condition is replaced
+
+# ---------------- Model ----------------
+input_hours: 48                # hours of history the model sees
+output_hours: 24               # hours it forecasts
+n_layers: 3
+hidden_dim: 128
+dropout: 0.1
+quantiles: [0.1, 0.5, 0.9]
+
+# ---------------- Training ----------------
+n_epochs: 500
+batch_size: 64
+batches_per_epoch: 10
+learning_rate: 0.001           # optimizer learning rate
+weight_decay: 0.001            # l2 regularization parameter
+clip: 5                        # gradient clipping
+teacher_forcing: 0.9           # share of steps that use the true previous value (decreases over epochs)
+patience: 30                   # stop if validation loss has not improved for this many epochs
+min_delta: 0.001
+seed: 42
+
+# ---------------- Prediction ----------------
+predict_start: null            # e.g. "2024-07-15". null = the last full day in the data
+                               # (the model needs the weather of the forecast hours)
+
+# ---------------- Locations ----------------
+# Demand per household (kW) = 1000 * (1 - demand_downscale_rate) * zone_load_MW / n_households
+# The downscale rate reflects that socially vulnerable households use ~10% less than average.
+locations:
+  houston:
+    ercot_region: COAST        # Victoria, Calhoun, Wharton, Galveston, Harris, Jackson, Matagorda, Brazoria,
+                               # Fort Bend, Chambers, Montgomery, Waller
+    n_households: 2428417
+    demand_downscale_rate: 0.1005
+    weather_url: https://www.wunderground.com/history/daily/us/tx/houston/KHOU/date/
+  austin:
+    ercot_region: SCENT        # Travis, Williamson, Hays, Bexar and 21 more counties
+    n_households: 2002462      # data/raw/census/scent_households_acs5y2023_B11001.csv
+    demand_downscale_rate: 0.1005
+    weather_url: https://www.wunderground.com/history/daily/us/tx/austin/KGTU/date/

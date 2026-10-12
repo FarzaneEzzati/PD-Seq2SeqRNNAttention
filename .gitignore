@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Everything that the pipeline can rebuild
+/data/interim/
+/data/processed/
+/models/
+/reports/
+
+# Archived outputs from the pre-refactor code (kept locally only)
+/legacy/

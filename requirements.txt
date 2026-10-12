@@ -1,0 +1,17 @@
+numpy
+pandas>=2.0
+scikit-learn
+torch
+matplotlib
+pyyaml
+joblib
+openpyxl          # read ERCOT .xlsx files
+xlrd              # read ERCOT .xls files (2015)
+requests          # download ERCOT files
+
+# Only needed to scrape weather (fetch_from_internet: true), plus Google Chrome:
+selenium
+beautifulsoup4
+
+# For the notebooks
+jupyter
